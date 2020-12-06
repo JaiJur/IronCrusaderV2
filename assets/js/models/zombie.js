@@ -15,7 +15,7 @@ class Zombie {
         this.minY = 50;
 
         this.sprite = new Image();
-        this.sprite.src = 'images/zombie-sprite.png'
+        this.sprite.src = 'assets/images/zombie-sprite.png'
         this.sprite.isReady = false;
 
         this.sprite.horizontalFrames = 2;

@@ -10,7 +10,7 @@ class Turret {
         this.livePoints = 500;
 
         this.sprite = new Image();
-        this.sprite.src = 'images/turret-img.png'
+        this.sprite.src = 'assets/images/turret-img.png'
         this.sprite.isReady = false;
 
         this.sprite.horizontalFrames = 1;

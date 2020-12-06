@@ -9,7 +9,7 @@ class Background{
         this.vx = -3;
 
         this.img = new Image();
-        this.img.src = './images/escenario1.jpg';
+        this.img.src = 'assets/images/escenario1.jpg';
         this.img.isReady = false;
         this.img.onload = () => {
             this.img.isReady = true;

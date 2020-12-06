@@ -7,7 +7,7 @@ class CuentaAtras {
         this.y = y;
 
         this.sprite = new Image();
-        this.sprite.src = 'images/cuentatras.jpg'
+        this.sprite.src = 'assets/images/cuentatras.jpg'
         this.sprite.isReady = false;
 
         this.sprite.horizontalFrames = 1;

@@ -35,13 +35,13 @@ class GameManager{
         this.cuentaAtras = new CuentaAtras(this.ctx, this.x, this.y);
 
         this.clickStart = new Image();
-        this.clickStart.src = './images/clickstart.jpg'
+        this.clickStart.src = 'assets//images/clickstart.jpg'
 
         this.deadImg = new Image();
-        this.deadImg.src = './images/dead.jpg'
+        this.deadImg.src = 'assets//images/dead.jpg'
 
         this.deadClickImg = new Image();
-        this.deadClickImg.src = './images/deadclick.jpg'
+        this.deadClickImg.src = 'assets//images/deadclick.jpg'
         
     }
 

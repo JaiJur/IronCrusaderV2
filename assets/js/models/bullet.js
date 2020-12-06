@@ -17,7 +17,7 @@ class Bullet{
         }
 
         this.sprite = new Image();
-        this.sprite.src = 'images/bullet-img.png';
+        this.sprite.src = 'assets/images/bullet-img.png';
         this.sprite.isReady = false;
 
         this.sprite.onload = () => {

@@ -19,7 +19,7 @@ class Player {
         this.vy = 0;
 
         this.sprite = new Image();
-        this.sprite.src = 'images/player-sprite.png'
+        this.sprite.src = 'assets/images/player-sprite.png'
         this.sprite.isReady = false;
 
 
